@@ -1,0 +1,14 @@
+{
+    "name": "netlogix/cache-garbagecollection",
+    "type": "typo3-flow-package",
+    "require": {
+        "typo3/flow": "~3.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Netlogix\\Cache\\GarbageCollection": "Classes"
+        }
+    }
+}

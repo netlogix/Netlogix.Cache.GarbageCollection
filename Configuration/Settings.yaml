@@ -1,0 +1,4 @@
+Netlogix:
+  Cache:
+    GarbageCollection:
+      caches: []
