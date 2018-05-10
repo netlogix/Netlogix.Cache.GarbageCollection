@@ -1,15 +1,23 @@
 {
     "name": "netlogix/cache-garbagecollection",
     "type": "neos-package",
+    "homepage": "http://websolutions.netlogix.de/",
+    "license": ["MIT"],
     "require": {
-        "typo3/flow": "~4.0"
-    },
-    "suggest": {
+        "neos/flow": "*"
     },
     "autoload": {
-        "psr-4": {
-            "Netlogix\\Cache\\GarbageCollection\\": "Classes"
+        "psr-0": {
+            "Netlogix\\Cache\\GarbageCollection": "Classes"
         }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Netlogix\\Cache\\GarbageCollection\\Tests": "Tests"
+        }
+    },
+    "replace": {
+        "netlogix/cors": "self.version"
     },
     "extra": {
         "neos": {
