@@ -1,5 +1,6 @@
 {
     "name": "netlogix/cache-garbagecollection",
+    "description": "Neos Package to run cache garbage collection through CLI",
     "type": "neos-package",
     "homepage": "http://websolutions.netlogix.de/",
     "license": ["MIT"],
