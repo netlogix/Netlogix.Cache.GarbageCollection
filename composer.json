@@ -4,7 +4,7 @@
     "homepage": "http://websolutions.netlogix.de/",
     "license": ["MIT"],
     "require": {
-        "neos/flow": "*"
+        "neos/flow": "^4.0 || ^5.0 || ^6.0"
     },
     "autoload": {
         "psr-0": {
@@ -15,9 +15,6 @@
         "psr-0": {
             "Netlogix\\Cache\\GarbageCollection\\Tests": "Tests"
         }
-    },
-    "replace": {
-        "netlogix/cors": "self.version"
     },
     "extra": {
         "neos": {
