@@ -1,5 +1,6 @@
 {
     "name": "netlogix/cache-garbagecollection",
+    "description": "Neos Package to run cache garbage collection through CLI",
     "type": "neos-package",
     "homepage": "http://websolutions.netlogix.de/",
     "license": ["MIT"],
@@ -7,13 +8,8 @@
         "neos/flow": "^4.0 || ^5.0 || ^6.0"
     },
     "autoload": {
-        "psr-0": {
-            "Netlogix\\Cache\\GarbageCollection": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-0": {
-            "Netlogix\\Cache\\GarbageCollection\\Tests": "Tests"
+        "psr-4": {
+            "Netlogix\\Cache\\GarbageCollection\\": "Classes/"
         }
     },
     "extra": {
